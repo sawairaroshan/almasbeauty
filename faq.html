@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ — ALMAS BEAUTY</title>
+    <meta name="description"
+        content="Frequently asked questions about Almas Beauty herbal skincare products, usage, and shipping.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+
+        .reveal {
+            opacity: 1 !important;
+            visibility: visible !important;
+            transform: none !important;
+        }
+
+        /* FAQ Accordion Styling */
+        .faq-wrap {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+        }
+
+        .faq-question {
+            width: 100%;
+            background: none;
+            border: none;
+            outline: none;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'Jost', sans-serif;
+            color: inherit;
+            padding: 12px 0;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 500;
+        }
+
+        .faq-question span.icon {
+            font-size: 20px;
+            transition: transform 0.3s ease;
+            color: #d4af37;
+        }
+
+        .faq-item.active .faq-question span.icon {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            font-size: 15px;
+            line-height: 1.6;
+            opacity: 0.8;
+            padding-right: 20px;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 300px;
+            padding-top: 8px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="announce">Complimentary shipping across Pakistan on orders over <span>Rs. 2,000</span> — 7-day visible glow, guaranteed</div>
+
+    <!-- HEADER NAVIGATION -->
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="brand">
+                <img src="logo.jpg" alt="Almas Beauty">
+                <span>
+                    <span class="brand-name">Almas&nbsp;Beauty</span>
+                    <div class="brand-sub">Herbal Skincare</div>
+                </span>
+            </a>
+            <div class="nav-links">
+                <a href="shop.html">Shop</a>
+                <a href="ritual.html">The Ritual</a>
+                <a href="story.html">Our Story</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="faq.html" class="active">FAQ</a>
+            </div>
+           <!-- Order on WhatsApp Button Pehle -->
+<a class="nav-wa-btn"
+    href="https://wa.me/923108627237?text=Hi!%20I%27d%20like%20to%20place%20an%20order%20with%20Almas%20Beauty."
+    target="_blank" rel="noopener">Order on WhatsApp</a>
+
+<!-- Stylish Clean Hamburger Button -->
+<button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" 
+        style="display: inline-flex; flex-direction: column; justify-content: space-between; width: 26px; height: 18px; background: transparent; border: none; padding: 0; cursor: pointer; outline: none;">
+    <span style="display: block; width: 100%; height: 2px; background-color: #111; border-radius: 2px;"></span>
+    <span style="display: block; width: 100%; height: 2px; background-color: #111; border-radius: 2px;"></span>
+    <span style="display: block; width: 100%; height: 2px; background-color: #111; border-radius: 2px;"></span>
+</button>
+        </nav>
+    </header>
+
+    <!-- MARQUEE -->
+    <div class="marquee" style="margin-top: 20px;">
+        <div class="marquee-track">
+            <span>Natural Herbal Formula</span><span>7-Day Intensive Whitening</span><span>Vitamin Rich</span><span>Deep Nourishment</span><span>Even Skin Tone</span>
+            <span>Natural Herbal Formula</span><span>7-Day Intensive Whitening</span><span>Vitamin Rich</span><span>Deep Nourishment</span><span>Even Skin Tone</span>
+        </div>
+    </div>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="editorial" style="padding-top: 40px;">
+        <div class="section-inner">
+            <div class="section-head text-center">
+                <div>
+                    <span class="kicker">Everything You Need To Know</span>
+                    <h2 class="reveal">Frequently Asked <em>Questions.</em></h2>
+                </div>
+            </div>
+
+            <!-- FAQ ACCORDION -->
+            <div class="faq-wrap">
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How fast will I see results?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most customers notice a visible radiance and smoother skin texture within 7 days of daily night application.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is Almas Beauty suitable for all skin types?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. Our herbal blend is formulated to be gentle yet effective across dry, combination, and oily skin types.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I order and pay?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can order directly via WhatsApp or Instagram DM. We offer Cash on Delivery across Pakistan, as well as advance bank transfers.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Are there any side effects?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Almas Beauty is rich in natural, skin-loving herbal extracts. We always recommend performing a patch test on a small area of skin before full use.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is your delivery timeframe?</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Standard delivery across Pakistan takes 3 to 5 business days. Orders over Rs. 2,000 enjoy complimentary free shipping.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="foot-brand">ALMAS BEAUTY</div>
+        <div class="foot-tag">Herbal Intensive Whitening Care</div>
+
+        <div class="socials">
+            <a href="https://www.instagram.com/almasbeautycream/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.1a6.7 6.7 0 1 0 0 13.4 6.7 6.7 0 0 0 0-13.4zm0 11a4.3 4.3 0 1 1 0-8.6 4.3 4.3 0 0 1 0 8.6zm8.5-11.3a1.6 1.6 0 1 1-3.2 0 1.6 1.6 0 0 1 3.2 0z"/></svg>
+            </a>
+            <a href="https://wa.me/923108627237" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+               <!-- Facebook -->
+    <a href="https://www.facebook.com/share/1UJywW9KzX/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+        <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.093 10.125 24v-8.437H7.078v-3.49h3.047V9.413c0-3.025 1.792-4.695 4.533-4.695 1.313 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.49h-2.796V24C19.612 23.093 24 18.1 24 12.073z"/>
+      </svg>
+    </a>
+
+    <!-- TikTok -->
+    <a href="https://www.tiktok.com/@almasbeauty_" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+        <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.66V2h-3.45v13.67a2.89 2.89 0 11-2.89-2.89c.28 0 .54.04.8.09V8.35a6.27 6.27 0 00-.8-.05A6.33 6.33 0 002.46 14.63a6.33 6.33 0 006.33 6.33 6.33 6.33 0 006.33-6.33V8.77a8.57 8.57 0 004.97 1.6V6.89a4.83 4.83 0 01-1.5-.2z"/>
+      </svg>
+    </a>
+        </div>
+
+        <div class="foot-copy">
+            © <span>2026</span> Almas Beauty · Herbal Intensive Whitening Care · All rights reserved
+        </div>
+    </footer>
+
+    <!-- STICKY WHATSAPP -->
+    <a href="https://wa.me/923108627237?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20Almas%20Beauty%20products"
+        class="wa-float" id="waFloat" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+        <span class="wa-pulse"></span>
+    </a>
+
+    <!-- ACCORDION SCRIPT -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach(item => {
+                const questionBtn = item.querySelector('.faq-question');
+                questionBtn.addEventListener('click', () => {
+                    const isActive = item.classList.contains('active');
+                    
+                    // Close all other items
+                    faqItems.forEach(otherItem => otherItem.classList.remove('active'));
+
+                    // Toggle current item
+                    if (!isActive) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- MOBILE HAMBURGER SCRIPT -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var burger = document.getElementById("hamburger");
+            var links = document.querySelector(".nav-links");
+            if (!burger || !links) return;
+            burger.addEventListener("click", function () {
+                var open = links.classList.toggle("open");
+                burger.classList.toggle("open", open);
+                burger.setAttribute("aria-expanded", open ? "true" : "false");
+            });
+            links.querySelectorAll("a").forEach(function (a) {
+                a.addEventListener("click", function () {
+                    links.classList.remove("open");
+                    burger.classList.remove("open");
+                    burger.setAttribute("aria-expanded", "false");
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
