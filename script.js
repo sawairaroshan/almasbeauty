@@ -39,7 +39,41 @@ const products = [
     sale: 2000,
     img: 'hero.png'
   
-  }
+  },
+
+  {
+
+    id: 4,
+    name: 'Almas Beauty Korean Goat Milk Whitening Soap',
+    sub: 'Korean Skincare Soap',
+    desc: 'Premium Korean formula that whitens skin, removes dark spots, moisturizes and nourishes your skin naturally. Net weight 100 gm.',
+    tag: 'Korean Best Seller',
+    orig: 550,
+    sale: 400,
+    img: 'goatmilksoap.jpg'
+},
+{
+    id: 5,
+    name: 'Almas Beauty Herbal Soap',
+    sub: 'Bridal Skincare Soap',
+    desc: 'Pigmentation and dark spot correction formula, designed as a whitening bridal soap for radiant skin.',
+    tag: 'Bridal Special',
+    orig: 550,
+    sale: 400,
+    img: 'herbal-soap.jpg'
+},
+{
+    id: 6,
+    name: 'Almas Beauty Neem Acne Care Soap',
+    sub: 'Acne Care Soap',
+    desc: 'Removes acne, controls excess oil, and gives you clear & healthy skin naturally. Net weight 100 gm.',
+    tag: 'Acne Solution',
+    orig: 450,
+    sale: 350,
+    img: 'neem-soap.jpg'
+}
+
+
 ];
 
 /* ---------- Sample reviews ---------- */
